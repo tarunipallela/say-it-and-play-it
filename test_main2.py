@@ -123,7 +123,9 @@ while True:
         screen.blit(over_text, (WIDTH // 2 - over_text.get_width() // 2, HEIGHT // 2 - 30))
     else:
         # Draw dino and obstacles
-        scre       en.blit(dino_img, (dino.x, dino.y))
+        screen.blit(dino_img, (dino.x, dino.y))
+
+
         for obs in obstacles:
             screen.blit(cactus_img, (obs.x, obs.y))
 
