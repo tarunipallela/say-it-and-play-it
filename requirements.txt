@@ -1,0 +1,5 @@
+pygame 
+SpeechRecognition 
+pyaudio
+pipwin
+vosk pyaudio
